@@ -1,16 +1,22 @@
-{// Selection of HTML objects
-const burger = document.querySelector('.burger i');
-const nav = document.querySelector('.nav');
+{
+    const limit_size_screen = window.matchMedia('screen and (max-width: 768px)');
+    const bars = document.querySelector('.bars');
+    const barsButton = document.querySelector('#bars-button');
 
-// Defining a function
-function toggleNav() {
-    burger.classList.toggle('fa-bars');
-    burger.classList.toggle('fa-times');
-    nav.classList.toggle('nav-active');
-}
+    function validation(event) {
+        if (event.matches) {
+            barsButton.addEventListener('click', hideShow);
+        } else {
+            barsButton.removeEventListener('click', hideShow);
+        }
+    }
+    validation(limit_size_screen);
 
-// Calling the function after click event occurs
-burger.addEventListener('click', function() {
-    toggleNav();
-});
+    function hideShow() {
+        if (bars.classList.contains('is-active')) {
+            bars.classList.remove('is-active');
+        } else {
+            bars.classList.add('is-active');
+        }
+    }
 }

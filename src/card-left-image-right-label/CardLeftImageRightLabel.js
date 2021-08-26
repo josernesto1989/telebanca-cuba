@@ -7,13 +7,13 @@ class CardLeftImageRightLabel extends React.Component {
 
     return (
       
-      <div class="card">
+      <div className="card">
       <img src={avatar} alt="Avatar" />
-      <div class="cardcontainer">
-        <div class="card-text-main">
+      <div className="cardcontainer">
+        <div className="card-text-main">
           <strong>{ this.props.title}</strong>
         </div>
-        <div class="card-text-second">
+        <div className="card-text-second">
         { this.props.description}
          </div>
       </div>
