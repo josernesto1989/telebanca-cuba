@@ -7,7 +7,7 @@ class CardLeftImageRightLabel extends React.Component {
 
     return (
       
-      <div className="card">
+      <div className="card" onClick={()=> window.open(this.props.link, "_blank")}>
       <img src={avatar} alt="Avatar" />
       <div className="cardcontainer">
         <div className="card-text-main">
