@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import avatar from './img_avatar2.png';
+import avatar from './../money-dollar-sign-in-a-square-svgrepo-com.svg';
 
 class CardLeftImageRightLabel extends React.Component {
   render() {

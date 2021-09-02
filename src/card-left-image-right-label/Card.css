@@ -16,8 +16,8 @@
 }
 img{
     width:var(--card-leftimage-rightlabel-height);
-    border-radius: 5px 0 0 5px;
-    background-color: red;
+    border-radius: 10px 0 0 10px;
+    background-color: greenyellow;
 }
 .cardcontainer{
     margin-left:10px;
