@@ -190,6 +190,32 @@ function App() {
       banks:[banksName.BPA]
     },
 
+    {
+      //Consulta saldo
+      title:"Consultar saldo",
+      description:"Consultar saldo de la tarjeta",
+      link:"tel:/*444*46#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+
+    {
+      //Consultar servios
+      title:"Consultar servios",
+      description:"Consultar factura del servicio",
+      link:"tel:/*444*47#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Últimas operaciones
+      title:"Últimas operaciones",
+      description:"Consultar últimas 10 operaciones",
+      link:"tel:/*444*48#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+ 
     
 
     
