@@ -215,6 +215,62 @@ function App() {
       icon:"",
       banks:[banksName.BPA]
     },
+    {
+      //Consultar Límite tarjeta
+      title:"Consultar Límite tarjeta",
+      description:"Consultar operaciones y extracción de saldo posible en un día",
+      link:"tel:/*444*62#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Consultar todas las cuentas
+      title:"Consultar todas las cuentas",
+      description:"Consultar todas las cuentas a la vez",
+      link:"tel:/*444*58#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Consultar giro postal
+      title:"Consultar giro postal",
+      description:"Consultar todas las cuentas a la vez",
+      link:"tel:/*444*65#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Consultar Créditos
+      title:"Consultar Créditos",
+      description:"Consultar créditos bancarios",
+      link:"tel:/*444*72#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Tipo de Cambio
+      title:"Tipo de Cambio",
+      description:"Tipo de Cambio",
+      link:"tel:/*444*85#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Cambio Ĺimite Tarjeta
+      title:"Cambio Ĺimite Tarjeta",
+      description:"Cambio Ĺimite de saldo a extraer en un día",
+      link:"tel:/*444*61#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Cambio Ĺimite Tarjeta
+      title:"Cambio Ĺimite Tarjeta",
+      description:"Cambio Ĺimite de saldo a extraer en un día",
+      link:"tel:/*444*61#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
  
     
 
