@@ -264,13 +264,79 @@ function App() {
       banks:[banksName.BPA]
     },
     {
-      //Cambio Ĺimite Tarjeta
-      title:"Cambio Ĺimite Tarjeta",
-      description:"Cambio Ĺimite de saldo a extraer en un día",
-      link:"tel:/*444*61#",
+      //registrar tarjeta
+      title:"no funciona Registrar Tarjeta",
+      description:"No Funciona Registrar Tarjeta BPA",
+      link:"tel:/*444*49*01*1234567890123456#",
       icon:"",
       banks:[banksName.BPA]
     },
+    {
+      //Eliminar registro
+      title:"Eliminar Registro",
+      description:"Eliminar Registro",
+      link:"tel:/*444*68*01#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Servicios Contratados
+      title:"Servicios Contratados",
+      description:"Lista los Servicios Contratados",
+      link:"tel:/*444*52#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Amortizar Creditos
+      title:"Amortizar Créditos",
+      description:"Amortizar Créditos",
+      link:"tel:/*444*55#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //reimpresión de tarjeta
+      title:"Reimpresión de Tarjeta",
+      description:"Reimpresión de Tarjeta Magnética",
+      link:"tel:/*444*74#",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Pérdida del PIN
+      title:"Pérdida del PIN",
+      description:"Pérdida del PIN de Tarjeta Magnética",
+      link:"tel:/*444*83",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Cambiar clave
+      title:"Cambiar clave",
+      description:"Cambiar clave de acceso",
+      link:"tel:/*444*69",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Asosciar cuentas
+      title:"Asosciar cuentas",
+      description:"Vincular otra cuenta bancaria",
+      link:"tel:/*444*60",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    {
+      //Ayuda
+      title:"Ayda",
+      description:"Lista de operaciones permitidas",
+      link:"tel:/*444*71",
+      icon:"",
+      banks:[banksName.BPA]
+    },
+    
+    
  
     
 
