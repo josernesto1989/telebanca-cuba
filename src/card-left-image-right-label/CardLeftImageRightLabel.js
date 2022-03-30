@@ -6,19 +6,20 @@ class CardLeftImageRightLabel extends React.Component {
   render() {
 
     return (
-      
-      <div className="card" onClick={()=> window.open(this.props.link, "_blank")}>
-      <img src={avatar} alt="Avatar" />
-      <div className="cardcontainer">
-        <div className="card-text-main">
-          <strong>{ this.props.title}</strong>
+      <a href={this.props.link}>
+        <div className="card" >
+        <img src={avatar} alt="Avatar" />
+        <div className="cardcontainer">
+          <div className="card-text-main">
+            <strong>{ this.props.title}</strong>
+          </div>
+          <div className="card-text-second">
+          { this.props.description}
+          </div>
         </div>
-        <div className="card-text-second">
-        { this.props.description}
-         </div>
-      </div>
-      </div>
-          );
+        </div>
+      </a>
+    );
   }
 }
 

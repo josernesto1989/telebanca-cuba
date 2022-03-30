@@ -9,7 +9,7 @@ class CardList extends React.Component {
         
         <div id="main-container">{
             this.props.actions.map((action) =>
-        <CardLeftImageRightLabel title={action.title} description={action.title} link={action.title}></CardLeftImageRightLabel> )  
+        <CardLeftImageRightLabel title={action.title} description={action.title} link={action.link}></CardLeftImageRightLabel> )  
   }
       </div>
           );
